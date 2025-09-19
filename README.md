@@ -33,15 +33,16 @@ pip install ultralytics opencv-python torch websockets cryptography
    ```
    Password: `Altesia24!!`
 
-2. Attiva l'ambiente virtuale Ultralytics:
+3. Attiva l'ambiente virtuale Ultralytics:
    ```bash
    source ultralytics/bin/activate
    ```
-3. Spostati nella cartella del progetto:
+4. Spostati nella cartella del progetto:
    ```bash
    cd yolo_server
    ```
-4. Assicurati di avere i modelli YOLO:
+   ```
+5. Assicurati di avere i modelli YOLO:
    - `best.pt` - modello personalizzato per agricoltura
    - `yolo11m.pt` - modello YOLO preaddestrato (scaricato automaticamente)
 
@@ -190,6 +191,20 @@ Posiziona i seguenti file nella directory del progetto:
 Durante l'esecuzione con `--gui`:
 - `q`: Termina l'applicazione
 - `s`: Abilita/disabilita invio dati TCP
+
+## Gestione Sistema
+
+### Terminare i processi YOLO
+Per terminare i processi YOLO premere Ctrl+C nella shell
+
+### Spegnimento del server
+Per spegnere il server al termine delle operazioni:
+```bash
+sudo shutdown -h now
+```
+Password: `Altesia24!!`
+
+**⚠️ Attenzione**: Assicurati di aver terminato tutti i processi YOLO con Ctrl+C prima di spegnere il sistema.
 
 ## Modelli YOLO Supportati
 
