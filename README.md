@@ -27,7 +27,12 @@ pip install ultralytics opencv-python torch websockets cryptography
 
 ## Installazione
 
-1. Clona o scarica i file del progetto
+1. Connettiti al server tramite SSH:
+   ```bash
+   ssh altesia@192.168.137.200
+   ```
+   Password: `Altesia24!!`
+
 2. Attiva l'ambiente virtuale Ultralytics:
    ```bash
    source ultralytics/bin/activate
@@ -44,11 +49,19 @@ pip install ultralytics opencv-python torch websockets cryptography
 
 ### Preparazione ambiente
 Prima di eseguire qualsiasi comando, assicurati di:
-1. Attivare l'ambiente virtuale:
+
+1. Essere connesso al server:
+   ```bash
+   ssh altesia@192.168.137.200
+   ```
+   Password: `Altesia24!!`
+
+2. Attivare l'ambiente virtuale:
    ```bash
    source ultralytics/bin/activate
    ```
-2. Essere nella cartella del progetto:
+
+3. Essere nella cartella del progetto:
    ```bash
    cd yolo_server
    ```
