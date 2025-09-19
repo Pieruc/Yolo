@@ -41,7 +41,6 @@ pip install ultralytics opencv-python torch websockets cryptography
    ```bash
    cd yolo_server
    ```
-   ```
 5. Assicurati di avere i modelli YOLO:
    - `best.pt` - modello personalizzato per agricoltura
    - `yolo11m.pt` - modello YOLO preaddestrato (scaricato automaticamente)
